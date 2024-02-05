@@ -1,0 +1,10 @@
+header{
+    max-width: 100%;
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    padding: 15px ;
+}
+h1{
+    text-align: center;
+    font-size: 42px;
+
+}
