@@ -31,11 +31,17 @@ h1{
 .about-content{
     text-align: center;
     max-width: 600px ;
-    border: white 1px solid;
     border-radius:6px ;
     padding: 30px ;
     margin: 20px auto ;
-    background: #c5f0a4;
+    color: black;
+    background: white;
+    opacity: 0.7;
     line-height: 1.5;
     font-size: 18px ;
+    font-weight: 500;
+}
+section{
+    background-image: url(images/IMG-20200906-WA0589.jpg);
+    background-size: cover;
 }
