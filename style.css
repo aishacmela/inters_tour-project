@@ -1,47 +1,125 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
-    list-style: none;
     text-decoration: none;
-} 
-header{
-    max-width: 100%;
-    background: linear-gradient(120deg, #84fab0 0%, #D2FFFF 100%);
-    padding: 10px ;
+    list-style: none;
+    scroll-behavior: smooth;
 }
-h1{
-    text-align: center;
-    font-size: 42px;
+#navbar, .home{
+    background-image: linear-gradient(to top, #b3ffab 0% 100%);
 }
-.btn{
-    border-radius: 30px;
-    font-size: 14px;
-
+#logo {
+    font-size: 36px;
+    font-weight: 550;
+    color: #053F1E;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
 }
-.btn:hover{
-    background: rgb(25, 135, 84);
+.navbar-nav{
+    margin-left: 20px;
 }
-.heading{
-    text-align: center;
-    font-size: 50px;
-    font-weight: 700;
-    margin: 10px 10px;
-    color: #013E1E;
-}
-.about-content{
-    text-align: center;
-    max-width: 600px ;
-    border-radius:6px ;
-    padding: 30px ;
-    margin: 20px auto ;
+.nav-item .nav-link{
+    font-size: 18px;
+    font-weight: 550;
     color: black;
-    background: white;
-    opacity: 0.7;
-    line-height: 1.5;
-    font-size: 18px ;
-    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
 }
-section{
-    background-image: url(images/IMG-20200906-WA0589.jpg);
-    background-size: cover;
+.nav-item .nav-link:hover{
+    background: #004C14;
+    color: white;
+}
+
+.home{
+    padding-top: 100px;
+    height: 100vh;
+    width: 100%;
+    border-top: 1px solid #fff;
+}
+
+ .home-content{
+    text-align: center;
+ }
+
+.home .home-content h2{
+    color: black;
+    font-weight: 600;
+    font-size: 70px;
+    text-shadow: 0px 1px 1px black;
+}
+.home .home-content h2 span{
+    font-family: pacifico;
+}
+.home .home-content h1{
+    color: #053F1E;
+    font-size: 48px;
+    text-shadow: 0px 1px 1px black;
+}
+.home button{
+    padding: 10px;
+    margin-top: 15px;
+    background: #004C14;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    
+}
+.home button:hover{
+    background: white;
+    color: #004C14;
+}
+
+/* @media (max-width:576px){
+    .home .home-content h2{
+        font-size: 38px;
+    }
+    .home .home-content h1{
+        font-size: 20px;
+    }
+    .home .home-content{
+        
+        text-align: center;
+    }
+
+
+} */
+
+.main-text{
+    text-align: center;
+    color: #053F1E;
+    padding: 20px;
+}
+.adventure{
+    background: #f9f9f9;
+    padding-bottom: 30px;
+}
+
+.material-symbols-outlined{
+    font-size: 60px;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    color: #004C14;
+}
+.adventure .card .card-body h3 {
+    font-weight: 600;
+    color: #053F1E;
+    text-align: center;
+    font-size: 38px;
+}
+.gallery{
+    background: #f9f9f9;
+}
+.gallery img{
+    border-radius: 10px;
+}
+
+.gallery .row{
+    margin-bottom: 40px;
 }
