@@ -79,21 +79,23 @@
     background: white;
     color: #004C14;
 }
-
-/* @media (max-width:576px){
+@media (max-width: 576px) {
+    .home{
+       
+    }
     .home .home-content h2{
-        font-size: 38px;
+        font-size: 30px;
     }
     .home .home-content h1{
         font-size: 20px;
     }
-    .home .home-content{
-        
-        text-align: center;
+    .about-p{
+        padding: 0;
     }
 
+    
+}
 
-} */
 
 .about{
     background: #f9f9f9;
